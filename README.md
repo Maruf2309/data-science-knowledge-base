@@ -4,76 +4,100 @@ Its all about learning Data Science  AI!
 # About Repository
 
 This repository contains my learning notebooks, experiments, notes, and reusable examples for data science and machine learning.
+--- 
+
 ## Contact 
 - https://www.linkedin.com/in/maruf17
 - maruf.hossain.1997@gmail.com
 - maruf552017@gmail.com
 
-## Main Sections
+## 🎯 Goal
 
+- Build a structured personal knowledge base
+- Practice concepts with examples
+- Quickly revisit topics when needed
+- Separate learning code from portfolio projects
+
+---
+
+## 📂 Folder Structure
+
+### 🧹 Data Preprocessing
 - imputation
 - preprocessing
-- feature_engineering
-- feature_selection
-- exploratory_data_analysis
-- statistics
-- probability
-- pandas
-- numpy
-- visualization
 - data_cleaning
 - data_transformation
 - encoding
 - scaling_normalization
 - outlier_detection
+
+### 🧠 Feature Engineering
+- feature_engineering
+- feature_selection
+
+### 📊 Exploratory Data Analysis
+- exploratory_data_analysis
+- visualization
+
+### 📈 Mathematics & Statistics
+- statistics
+- probability
+- math_for_ml
+- optimization
+
+### 🐼 Core Libraries
+- pandas
+- numpy
+
+### ⏳ Time-Based Analysis
 - time_series
+
+### 🤖 Machine Learning
 - machine_learning
+- model_evaluation
+- hyperparameter_tuning
+- pipelines
+
+### 🧠 Advanced Topics
 - deep_learning
 - natural_language_processing
 - computer_vision
 - recommender_systems
-- model_evaluation
-- hyperparameter_tuning
-- pipelines
+
+### 🏗️ Engineering & Systems
 - deployment
 - mlops
+- data_engineering
 - big_data
 - sql
-- data_engineering
 - api_integration
 - web_scraping
+
+### 🧪 Practice & Learning
 - experiments
 - case_studies
 - interview_preparation
-- algorithms
-- math_for_ml
-- optimization
-- debugging
-- best_practices
 - cheat_sheets
-- utilities
-- datasets
 
-## Goal
+### ⚙️ Foundations
+- algorithms
+- best_practices
 
-- keep all learning code in one place
-- make concepts easy to find later
-- Quickly find concepts when needed
-- Build a personal coding reference system
-- separate learning materials from portfolio projects
-  
-## 🛠️ Tools Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib / Seaborn
+---
 
-📌 Notes
+## 🚀 How to Use
 
-Each notebook contains:
-- Concept explanation
-- Example dataset
-- Code implementation
-- Visualization (where applicable)
+- Each folder contains topic-wise notebooks
+- Each notebook focuses on a single concept
+- Examples + explanations + experiments included
+
+---
+
+## 🛠️ Setup
+
+```bash
+pip install -r requirements.txt
+
+## Author
+©️Maruf Hossain
 
