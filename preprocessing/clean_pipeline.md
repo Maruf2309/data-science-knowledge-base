@@ -47,3 +47,33 @@ def clean(df: DataFrame) -> pd.DataFrame:
             df[col] = df[col].astype("int32")
 
     return df
+```
+### 1.2 Column Reformation
+One-line clean solution
+
+```bash
+data.columns = (
+    data.columns
+        .str.lower()
+        .str.strip()
+        .str.replace(' ', '_')
+)
+
+✅ Advanced: Handle special characters (Recommended)
+
+data.columns = (
+    data.columns
+        .str.lower()
+        .str.strip()
+        .str.replace(' ', '_')
+        .str.replace('[^a-z0-9_]', '', regex=True) # Remove Special Character
+)
+
+## Remove Last Part / Suffix
+
+df['salespoint'] = (
+    df['salespoint']
+    .str.replace(r'\s*Sales Center$','',case=False, regex=True)
+    .str.strip()
+)
+df.head()
